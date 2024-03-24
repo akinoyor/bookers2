@@ -83,7 +83,8 @@
         </nav>
       </header>
 
-      <main class ="my-3">
+      <main>
+        <div class="mb-3"><%=  flash[:notice] %></div>
         <%= yield %>
       </main>
 
